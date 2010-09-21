@@ -1,1 +1,3 @@
 Some helper scripts that I use when doing git. Made to work with a central svn repository.
+
+Inspired by the blog post by Jon Rohan - http://www.dinnermint.org/tutorial/dead-simple-git-workflow-for-agile-teams/ modified for svn repository.
