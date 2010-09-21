@@ -1,0 +1,7 @@
+alias gcb='git checkout -b'
+alias status='git status'
+alias commit='git commit'
+alias hack='hack-with-svn.sh'
+alias ship='ship-with-svn.sh'
+alias dwf='dwf.sh'
+alias hsd='hack && ship && dwf'
