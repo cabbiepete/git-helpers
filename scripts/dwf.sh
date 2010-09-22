@@ -3,4 +3,5 @@
 ref=$(git symbolic-ref HEAD 2> /dev/null) || exit 0
 CURRENT="${ref#refs/heads/}"
 git checkout master
+git merge ${CURRENT}
 git branch -d ${CURRENT}
